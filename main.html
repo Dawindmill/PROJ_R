@@ -8,9 +8,10 @@
 	<body>
 		<h1 id="hello">Hello World, This is PROJ_R ! </h1>
 		<br/>
-		<button onclick="temp=setInterval(function(){changeInner()},300);">Start</button>
+		<button onclick="temp=setInterval(function(){changeInner()},10);">Start</button>
 		<button onclick="clearInterval(temp)">Stop</button>
+		<img id="left" onmouseover="temp2=setInterval(function(){buttonAnimation()},300);" onmouseout="clearInterval(temp2)" src="css/assets/left.png"/>
+		<script src="js/jquery-2.1.1.js"></script>
 		<script src="js/style.js"></script>
-		<script src="js/jquery-2.1.1"></script>
 	</body>
 </html>

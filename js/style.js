@@ -6,3 +6,21 @@ function changeInner()
 	else
 		obj.innerHTML="Hello World, This is PROJ_R ! ";
 }
+
+
+function buttonAnimation()
+{
+	$(document).ready
+	(
+		function()
+		{
+			$("img").hover
+			(
+				function()
+				{
+					$(this).animate({left:'+=5px'});
+				}
+			);
+		}
+	);
+}
