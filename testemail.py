@@ -1,4 +1,6 @@
+#!C:\Python27\python.exe -u
 import smtplib
+print "Content-type: text/html\n"
 def send_email(from_person,to_person,subject,message):
 	server=smtplib.SMTP("smtp.gmail.com",587)
 	server.starttls()
