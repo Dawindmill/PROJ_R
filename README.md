@@ -1,11 +1,15 @@
-PROJ_R
+Project Name ： PROJ_R
+Date Created : 01/12/2014 10：57AM
+Author : Bingfeng Liu 
+Email ： liubingfeng93@gmail.com
+Blog : www.liubingfeng.com
 ======
 
 Personal Web Project
 
 Idea Summary:
 
--A web Communication functionality ？
+-A web Communication functionality?
 
 -Slide show kind of web page, displaying image,and letter
 
